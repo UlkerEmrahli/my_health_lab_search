@@ -1,0 +1,122 @@
+#wrapper select{
+	display: inline-block;
+	margin-right: -5%;
+}
+#wrapper p{
+	display: inline-block;
+}
+#wrapper .main{
+	margin: 3% 3% 0 0;
+	float: right;
+}
+.doktorButton{
+	margin-left: 5%;
+}
+.doktorButton button{
+	background-color: #fff;
+	width: 150px;
+	height: 35px;
+	color: #9fcb10;
+	border-radius: 5px;
+	border: 1px solid #9fcb10;
+    margin: 4% 2% 5% 0;
+    transition: .5s;
+}
+.doktorButton button:hover{
+	color: #fff;
+	background-color: #9fcb10;
+}
+.searchTheme{
+	margin-left: 5%;
+}
+.searchTheme p{
+	display: inline-block;
+}
+.answer{
+    margin-left: 5%;
+}
+.searchTheme input{
+    width:35%;
+    margin: 0 3%;
+}
+.searchTheme button{
+	height: 30px;
+	width: 130px;
+	border-radius: 3px;
+	border:1px solid #1BADC1;
+	background-color: #fff;
+	color: #1BADC1;
+	transition: .5s;
+}
+.searchTheme button:hover{
+	background-color:#1BADC1;
+	color: #fff; 
+}
+.message{
+	border-radius: 5px;
+	margin: 0 auto;
+	width: 500px;
+	background-color: #1BADC1;
+}
+.message p{
+	color: #fff;
+    padding: 12px 0 10px 14px;
+}
+.message a{
+	float: right;
+	margin-top: -8%;
+	margin-right: 3%;
+	color: #fff;
+}
+.message input{
+	width: 90%;
+	height: 200px;
+	margin: 1% 3%;
+}
+.message button{
+	display: block;
+	margin: 5% auto;
+	width: 90px;
+	color: #fff;
+	background-color: #9fcb10;
+	border: 1px solid #9fcb10;
+	border-radius: 3px;
+	transition: .5s;
+}
+.message button:hover{
+	background: #fff;
+	color:#9fcb10;
+	border:1px solid #1BADC1;
+}
+footer{
+	margin-top: 19%; 
+}
+@media(max-width: 525px){
+	.message{
+		width: 90%;
+	}
+	.searchTheme p{
+		margin-left: 30%;
+	}
+	.searchTheme input{
+		width: 80%;
+	}
+	.searchTheme button{
+		width: 50%;
+		margin:2% 15%;
+	}
+}
+@media(max-width: 463px){
+	#wrapper select{
+		margin-left: 80%;
+	}
+}
+@media (max-width: 390px){
+	.doktorButton button{
+		width: 90%;
+	}
+	.message button{
+		width: 70%;
+		height: 30px;
+	}
+}
